@@ -1,0 +1,49 @@
+.cards__wrap {
+  @include flex();
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  .cards__up {
+    display: flex;
+    justify-content: space-around;
+    img {
+      width: 330px;
+      height: 260px;
+    }
+    .cards__up {
+      display: flex;
+      justify-content: space-around;
+      img {
+        width: 330px;
+        height: 260px;
+      }
+    }
+  }
+}
+
+// .mount__bg {
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   //   text-align: start;
+//   width: 150%;
+//   height: 600px;
+//   //   padding: 45px;
+//   background-image: url(/assets/images/mirrorbiuld.png);
+//   background-repeat: no-repeat;
+//   .mount__text {
+//     display: flex;
+//     align-items: start;
+//     // justify-content: flex-starts;
+//     text-align: start;
+//     flex-direction: column;
+//     color: $button;
+//     h1 {
+//       @include font-max();
+//     }
+//     color: $def;
+//     p {
+//       @include font-min();
+//     }
+//   }
+// }

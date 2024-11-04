@@ -131,20 +131,23 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 .cards__wrap .cards__up {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
 }
 .cards__wrap .cards__up img {
   width: 330px;
   height: 260px;
 }
-.cards__wrap .cards__up .cards__under {
+.cards__wrap .cards__up .cards__up {
   display: flex;
-  flex-direction: row;
+  justify-content: space-around;
 }
-.cards__wrap .cards__up .cards__under img {
+.cards__wrap .cards__up .cards__up img {
   width: 330px;
   height: 260px;
 }/*# sourceMappingURL=main.css.map */
